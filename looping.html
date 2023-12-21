@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //penerimaan siswa baru
+        let jalur = "rapot";
+        let nilaiun = 90;
+        let tesmandiri = 90;
+
+        if(nilaiun >= 90 && nilaiun <= 100) {
+            console.log("NILAI SEMPURNA DAN LOLOS")
+        }else if(nilaiun >=80 && nilaiun <= 89) {
+            if(jalur=="prestasi") {
+                console.log("JALUR PRESTASI")
+            }else if(jalur=="rapot") {
+                console.log("JALUR RAPOT")
+            }
+        }else if(tesmandiri >= 79 && tesmandiri <= 100) {
+            console.log("TES LOLOS")
+        }else{
+            console.log("TES GAGAL")
+        }
+
+
+
+        //looping
+        //for
+        for(let z = 0; z <= 10; z++)
+        console.log('data ke-', z)
+
+        //while
+        let x = 1
+        while(x <= 1 ) {
+            console.log('data ke -', x)
+            x++
+        }
+
+
+        // do while
+        let y = 0
+        do {
+            console.log('data y ke - ', y)
+            y++
+        }while (y <= 10)
+
+        
+        lihat let dan operator =
+        //genap for
+        for (let i = 0; i <= 50; i += 2){
+            console.log('data ke -', i);
+        }
+
+
+        //genap while
+        let x = 0
+        while(x <= 10 ) {
+            console.log(x)
+            x +=2;
+        }
+
+
+        //genap do while
+        let y = 0
+        do {
+            console.log(y)
+            y+=2;
+        }while (y<=10)
+
+    </script>
+</body>
+</html>
